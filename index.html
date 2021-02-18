@@ -17,7 +17,7 @@
             }
     </script>
     
-
+<div id='root'>ROOTY</div>
 <div class='internalcss'>
 <h2>Title of bootcamp </h2>
 <div id='title'>
@@ -32,6 +32,13 @@ React Front End Developement
 <button onclick="promptScreen(document.getElementById('prompting').value)">Click to prompt this message on window </button>
 <script src='somejs.js'>
     
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.24.0/babel.js"></script>
+
+<script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+<script type='text/babel'>
+ReactDOM.render(<h1>React is rendering this </h1>, document.getElementById('root'));
 </script>
 </div>
 </body>
