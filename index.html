@@ -1,0 +1,41 @@
+
+
+<!DOCTYPE html>
+<head>
+   <style>
+       h2 {
+           color:red;
+       }
+   </style> 
+   <link rel="stylesheet" href="index.css">
+</head>
+<html>
+<body>
+    <script>
+        function testy () {
+            document.getElementById('title').innerHTML= document.getElementById('name').value
+            }
+    </script>
+    
+
+<div class='internalcss'>
+<h2>Title of bootcamp </h2>
+<div id='title'>
+React Front End Developement
+</div>
+
+<input type=text id='name' value=''/>
+<button onclick="testy()">Update New Title </button>
+</br>
+
+<input type=text id='prompting' value=''/>
+<button onclick="promptScreen(document.getElementById('prompting').value)">Click to prompt this message on window </button>
+<script src='somejs.js'>
+    
+</script>
+</div>
+</body>
+
+
+
+</html>
